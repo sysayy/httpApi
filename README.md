@@ -3,6 +3,7 @@ Java 版本 基于rest-assured的接口测试
 
 
 # 目录结构
+```ruby
 .
 ├── Configs 存放数据文件 以类名命名 数据已 key value 模式存储
 │   └── Test001_getBook.properties
@@ -52,3 +53,4 @@ Java 版本 基于rest-assured的接口测试
                 ├── AssertionListener.java
                 ├── BaseTest.java
                 └── JsonToObj.java
+```                
