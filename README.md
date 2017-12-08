@@ -8,7 +8,7 @@ Java 版本 基于rest-assured的接口测试
 ├── Configs 存放数据文件 以类名命名 数据已 key value 模式存储
 │   └── Test001_getBook.properties
 ├── README.md
-├── lib
+├── lib 工程用到的jar 包存放目录
 │   ├── commons-beanutils-1.7.0.jar
 │   ├── commons-codec-1.9.jar
 │   ├── commons-collections-3.2.1.jar
@@ -39,18 +39,21 @@ Java 版本 基于rest-assured的接口测试
 └── src 
     └── api
         └── test
-            ├── case
-            │   └── douban
+            ├── case 脚本存放目录
+            │   └── douban 
             │       └── Test001_getBook.java
-            ├── obj
-            │   ├── Account
+            ├── obj 对象包 
+            │   ├── Account 
             │   │   ├── Get.java
             │   │   └── LoginJsonObj.java
             │   ├── clientCommonInfo.java
             │   └── douban
-            └── util
+            └── util 工具类
                 ├── Assertion.java
                 ├── AssertionListener.java
                 ├── BaseTest.java
                 └── JsonToObj.java
 ```                
+# 用的测试框架是 testng jdk 1.8 
+ 具体的断言方式可自己查看 rest-assured 官方文档
+ 
