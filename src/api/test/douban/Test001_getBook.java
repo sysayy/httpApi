@@ -1,4 +1,4 @@
-package api.test.douban.douban;
+package api.test.douban;
 
 import static io.restassured.RestAssured.given;
 import io.restassured.response.Response;
